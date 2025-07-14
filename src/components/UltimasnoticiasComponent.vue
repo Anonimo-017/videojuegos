@@ -1,5 +1,7 @@
 <template>
-    <table class="table" margin="none">
+    <center><h2 class="poppins-black-italic, blinking-text">Las noticias gamer más rápidas y precisas, directamente a tu pantalla. </h2></center>
+  <div class="conteiner">
+    <table class="table" margin="none" >
   <thead>
     <tr>
       <th scope="col">
@@ -101,6 +103,7 @@
     </tr>
       </tbody>
 </table>
+</div>
 </template>
 
 <script>
@@ -108,5 +111,37 @@
 </script>
 
 <style>
+.conteiner{
+  border: 1px solid #000; 
+  border-radius: 5px;
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 10px;;        
+  background-color: rgba(0, 0, 0, 0.333); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Jersey+10&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+}
+
+.blinking-text {
+  animation: blink 1s linear infinite; /* Ajusta la velocidad (1s) */
+}
+
+@keyframes blink {
+  50% {
+    visibility: hidden;
+  }
+}
 
 </style>

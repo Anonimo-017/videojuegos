@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Ultimasnoticias from './Ultimasnoticias.vue'; 
+import Ultimasnoticias from './UltimasnoticiasComponent.vue'; 
 
 export default {
   name: 'Principal',
