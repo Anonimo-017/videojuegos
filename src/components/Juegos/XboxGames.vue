@@ -1,13 +1,11 @@
 <template>
     <div class="img">
-    <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPo3seOyjUADiJJbCD4UNtDNtjJ1sgymdIcIu3kVwtrv3yBB57CkrKizQbuKkoQ_bUTgM&usqp=CAU" class="img-fluid"></center>
+    <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOZdDY9QVv0K-pnlanr6lVEKqFAgq06rASnQ&s" class="img-fluid"></center>
     </div>
-  <div class="con-gen">
-    <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">
-        <div class="card" style="width: 18rem;">
+    <div class="con-gen">
+    <div class="news-grid">
+  <div class="news-card">
+<div class="card" style="width: 18rem;">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxntI0P0HqWVzYKNUjS6ApAS6-QQ3I5Xm8jg&s" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">MINECRAFT</h5>
@@ -19,13 +17,12 @@
     <li class="list-group-item">Markus Persson</li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">COMPRAR JUEGO</a>
-    <a href="#" class="card-link">VER TRAILER</a>
+    <a href="https://www.minecraft.net/es-es" class="card-link">COMPRAR JUEGO</a>
+    <a href="https://www.youtube.com/watch?v=1DhWXAiNgfQ" class="card-link">VER TRAILER</a>
   </div>
-</div>
-      </th>
-      <th scope="col">
-        <div class="card" style="width: 18rem;">
+</div>  </div>
+  <div class="news-card">
+<div class="card" style="width: 18rem;">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLFIOzxi1UTGMT6nQ_R8I4wUSJaMTnRxpwNQ&s" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">HALO: la coleccion del jefe maestro</h5>
@@ -37,13 +34,12 @@
     <li class="list-group-item">343 Industries</li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">COMPRAR JUEGO</a>
-    <a href="#" class="card-link">VER TRAILER</a>
+    <a href="https://www.xbox.com/es-mx/games/store/halo-the-master-chief-collection/9mt8ptgvhx2p" class="card-link">COMPRAR JUEGO</a>
+    <a href="https://www.youtube.com/watch?v=4qBkw4YwGrM" class="card-link">VER TRAILER</a>
   </div>
-</div>
-      </th>
-      <th scope="col">
-        <div class="card" style="width: 18rem;">
+</div>  </div>
+  <div class="news-card">
+<div class="card" style="width: 18rem;">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2M61WGVPgkVwI6rfd3uD40Si3bF55YWAllw&s" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Amnesia the bunker</h5>
@@ -54,18 +50,14 @@
     <li class="list-group-item">Frictional Games</li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">COMPRAR JUEGO</a>
-    <a href="#" class="card-link">VER TRAILER</a>
+    <a href="https://www.xbox.com/es-mx/games/store/amnesia-the-bunker/9pc15h56ngjk" class="card-link">COMPRAR JUEGO</a>
+    <a href="https://www.youtube.com/watch?v=JoGa7fpEp34" class="card-link">VER TRAILER</a>
   </div>
+</div>  </div>
+  <!-- ... más tarjetas -->
 </div>
-      </th>
-    </tr>
-  </thead>
-
-</table>
-
-  </div>
-</template>
+</div>
+ </template>
 
 <script>
 export default {

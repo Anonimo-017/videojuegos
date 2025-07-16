@@ -4,11 +4,9 @@
     </div>
   <div class="con">
 
-    <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">
-        <div class="card" style="width: 18rem;">
+  <div class="news-grid">
+  <div class="news-card">
+<div class="card" style="width: 18rem;">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ghDXOBLmbyMDbrsCa3zDx2_a-RiICdE0NQ&s" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">Super Mario</h5>
@@ -20,13 +18,13 @@
     <li class="list-group-item">Shigeru Miyamoto </li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">COMPRAR JUEGO</a>
-    <a href="#" class="card-link">VER TRAILER</a>
+    <a href="https://www.nintendo.com/es-mx/store/products/mario-kart-world-switch-2/"    class="card-link">COMPRAR JUEGO</a>
+    <a href="https://www.youtube.com/watch?v=z3s8vB_hw6c" class="card-link">VER TRAILER</a>
   </div>
 </div>
-      </th>
-      <th scope="col">
-        <div class="card" style="width: 18rem;">
+  </div>
+  <div class="news-card">
+   <div class="card" style="width: 18rem;">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4C1GAqkOUwFDqVag_5mbbWZtqw0W2RxGi3eOhpKaaksdCG6Tcdgf4P2o8cM0QJLSWSk8&usqp=CAU" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">Digimon Rumble Arena 2</h5>
@@ -42,9 +40,9 @@
     <a href="#" class="card-link">VER TRAILER</a>
   </div>
 </div>
-      </th>
-      <th scope="col">
-        <div class="card" style="width: 18rem;">
+  </div>
+  <div class="news-card">
+    <div class="card" style="width: 18rem;">
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Zelda_Logo.svg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">The Legend of Zelda.</h5>
@@ -55,17 +53,15 @@
     <li class="list-group-item">Bandai</li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">COMPRAR JUEGO</a>
-    <a href="#" class="card-link">VER TRAILER</a>
+    <a href="https://www.nintendo.com/es-mx/store/products/the-legend-of-zelda-breath-of-the-wild-switch/" class="card-link">COMPRAR JUEGO</a>
+    <a href="https://www.youtube.com/watch?v=ofH5ptn5w-A" class="card-link">VER TRAILER</a>
   </div>
 </div>
-      </th>
-    </tr>
-  </thead>
-
-</table>
-
   </div>
+  <!-- ... más tarjetas -->
+</div>
+  </div>
+
 </template>
 
 <script>

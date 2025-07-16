@@ -4,11 +4,11 @@
     </div>
   <div class="con">
 
-    <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">
-        <div class="card" style="width: 18rem;">
+  
+
+  <div class="news-grid">
+  <div class="news-card">
+<div class="card" style="width: 18rem;">
   <img src="https://i.ytimg.com/vi/QcIUR24mq3s/maxresdefault.jpg" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">Blur Overdrive</h5>
@@ -20,13 +20,13 @@
     <li class="list-group-item">ActVision </li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">COMPRAR JUEGO</a>
-    <a href="#" class="card-link">VER TRAILER</a>
+    <a href="https://www.gamezfull.com/blur-pc-full-espanol-mega/" class="card-link">DESCARGAR</a>
+    <a href="https://www.youtube.com/watch?v=Upot7mCGYQ8" class="card-link">VER TRAILER</a>
   </div>
 </div>
-      </th>
-      <th scope="col">
-        <div class="card" style="width: 18rem;">
+  </div>
+  <div class="news-card">
+      <div class="card" style="width: 18rem;">
   <img src="https://i0.wp.com/www.madboxpc.com/wp-content/uploads/2013/06/mortal_kombat_9_characters-1680x1050.jpg?fit=1280%2C800&ssl=1" class="card-img-top">
   <div class="card-body">
     <h5 class="card-title">Mortal Kombat 9 Komplete Edition</h5>
@@ -38,13 +38,13 @@
     <li class="list-group-item">Bandai Games</li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">COMPRAR JUEGO</a>
-    <a href="#" class="card-link">VER TRAILER</a>
+    <a href="https://www.gamezfull.com/mortal-kombat-9-komplete-edition-pc-full-espanol-mega/" class="card-link">DESCARGAR</a>
+    <a href="https://www.youtube.com/watch?v=wbwALe_qBaY" class="card-link">VER TRAILER</a>
   </div>
 </div>
-      </th>
-      <th scope="col">
-        <div class="card" style="width: 18rem;">
+  </div>
+  <div class="news-card">
+    <div class="card" style="width: 18rem;">
   <img src="https://image.api.playstation.com/vulcan/ap/rnd/202504/1505/fc7dfa1419ac7833552e9eeb92bee030be79c207b8ec4884.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">eFootball</h5>
@@ -55,17 +55,14 @@
     <li class="list-group-item">Konami</li>
   </ul>
   <div class="card-body">
-    <a href="#" class="card-link">COMPRAR JUEGO</a>
-    <a href="#" class="card-link">VER TRAILER</a>
+    <a href="https://www.gamezfull.com/efootball-pes-2021-pc-full-espanol-latino-mega/" class="card-link">DESCARGAR</a>
+    <a href="https://www.youtube.com/watch?v=ysweRpG6XBA" class="card-link">VER TRAILER</a>
   </div>
 </div>
-      </th>
-    </tr>
-  </thead>
-
-</table>
-
   </div>
+  <!-- ... más tarjetas -->
+</div>
+</div>
 </template>
 
 <script>
@@ -81,12 +78,10 @@ export default {
   padding-left: 17%;
   padding-right: 17%;
   padding-top: 10px;;        
-  background-color: #fe0016 ; 
+  background-color: cyan ; 
 }
 .img{
     border-width: 35%;
     align-items: center;
 }
 </style>
-
-
