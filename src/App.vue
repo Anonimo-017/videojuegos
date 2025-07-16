@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <CompEncabezado />
-    <div v-if="$route.path === '/'">  <!-- Mostrar solo en la ruta '/' -->
+    <div v-if="$route.path === '/'"> 
       <UltimasnoticiasComponent />
     </div>
     <router-view />
@@ -11,7 +11,7 @@
 
 <script>
 import CompEncabezado from './components/conf/CompEncabezado.vue';
-import UltimasnoticiasComponent from './components/UltimasnoticiasComponent.vue'; // Importación agregada
+import UltimasnoticiasComponent from './components/UltimasnoticiasComponent.vue'; 
 import FooterComp from './components/conf/FooterComp.vue';
 
 export default {
@@ -25,18 +25,16 @@ export default {
 </script>
 
 <style scoped>
-/* Estilos existentes... */
 
-@media (max-width: 768px) { /* Ajusta este valor según tu necesidad */
+@media (max-width: 768px) { 
   .news-grid {
-    display: flex; /* Mantenemos flexbox para la disposición vertical */
-    flex-direction: column; /*  Coloca las tarjetas una encima de la otra */
-    align-items: center; /* Centra las tarjetas horizontalmente */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .news-card {
-    width: 90%; /* Ajusta el ancho para que quepa en la pantalla */
-    margin: 1rem 0; /* Ajusta los márgenes para un mejor espaciado vertical */
+    width: 90%;     margin: 1rem 0; 
   }
 }
 </style>
